@@ -3,7 +3,7 @@ import requests
 
 
 def download_file(url):
-    response = requests.get(url)
+    requests.get(url)
     print(f"Downloaded {url}")
 
 
